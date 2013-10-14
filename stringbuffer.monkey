@@ -34,6 +34,10 @@ Class StringBuffer
 	End
 	
 	'api
+	Method ToString:String()
+		Return value()
+	End
+	
 	Method Add:Void(asc:Int)
 		' --- add single asc to buffer ---
 		'resize
